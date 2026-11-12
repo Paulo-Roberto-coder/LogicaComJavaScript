@@ -8,7 +8,7 @@ function calcular(mostrar, param1, param2) {
     }
 }
 
-function name() {
+function mensagem() {
     console.log('Meu nome é paulo!');
 }
 
@@ -17,4 +17,4 @@ function id() {
 }
 
 // passa as funções SEM parênteses: entrega a função, não o resultado dela
-calcular('function', name, id);
+calcular('function', mensagem, id);
